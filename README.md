@@ -55,3 +55,15 @@ Ao rodar a suíte de testes com o comando `dotnet test`, o resultado reportará 
 1. Clone o repositório para sua máquina local:
    ```bash
    git clone (https://github.com/rauulsilveira/amcom-qa-challenge)
+
+   ---
+
+## BÔNUS: Demonstração Prática em Playwright (TypeScript)
+
+ Sabendo que o Playwright é a principal ferramenta utilizada no dia a dia da Amcom, criei a branch paralela `feature/playwright-typescript-bonus` contendo um script completo em TypeScript (`amcom-challenge.spec.ts`).
+
+* **Onde encontrar:** O arquivo está localizado na raiz desta branch.
+* **Abordagem rápida:** Para garantir a agilidade na entrega do desafio, este script de bônus foi escrito sem o uso de Page Objects (POM), concentrando os 17 cenários mapeados de forma direta e funcional em um arquivo único.
+* **Fidelidade:** Ele cobre rigorosamente os mesmos caminhos felizes, edge cases e mapeamentos de bugs do projeto original em C#.
+
+---
